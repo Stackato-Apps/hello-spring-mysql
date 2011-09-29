@@ -11,17 +11,17 @@ Then, *cd* into the root directory and execute:
 
 	mvn clean package
 
-That will create the *hello-java-1.0.war* file within the 'target' directory.
+That will create the *hello-java-1.0.war* file in the 'target' directory.
 
 Running the Application
 -----------------------
 
-To run the application, make sure you have the Stackato client installed and that you are logged in successfully for your desired target environment (e.g. http://api.stackato.local).
+To run the application, make sure you have the Stackato client installed and that you are logged in to your target (e.g. http://api.stackato.local).
 
-Then execute:
+Then run:
 
-	stackato push hello-spring-mongo --path target
+	stackato push hello-spring-mysql --path target
 
-Remember to add a MySQL service.
+When prompted to add a service, select "y" and add a MySQL service.
 
-Then visit the 'Application Deployed URL'.
+You can view the application at the 'Application Deployed URL'.
