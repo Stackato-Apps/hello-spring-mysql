@@ -1,0 +1,8 @@
+---
+applications:
+  target:
+    name: hello-spring-mysql
+    mem: 256M
+    services:
+      mysql-spring:
+        type: mysql
