@@ -2,7 +2,7 @@
 applications:
   target:
     name: hello-spring-mysql
-    mem: 256M
+    mem: 512M
     services:
       mysql-spring:
         type: mysql
