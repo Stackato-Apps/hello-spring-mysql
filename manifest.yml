@@ -2,13 +2,7 @@
 applications:
   target:
     name: hello-spring-mysql
-    framework:
-      name: spring
-      app-server: tomee+
     mem: 512M
     services:
       mysql-spring:
         type: mysql
-    stackato:
-      min_version:
-        client: 1.7
