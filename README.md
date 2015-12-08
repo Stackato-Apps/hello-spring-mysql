@@ -29,7 +29,7 @@ That will create the *hello-java-1.0.war* file within the 'target' directory.
 Deploying the Application
 -------------------------
 
-To run the application, make sure you have the Stackato client installed and that you are logged in successfully for your desired target environment (e.g. http://api.stackato.local).
+To run the application, make sure you have the HPE Helion Stackato client installed and that you are logged in successfully for your desired target environment (e.g. http://api.stackato.local).
 
 Then execute:
 
